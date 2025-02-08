@@ -8,7 +8,7 @@ CREATE TABLE event_identifier (
   event_name VARCHAR(13)
 );
 
-INSERT INTO clique_bait.event_identifier
+INSERT INTO event_identifier
   (event_type, event_name)
 VALUES
   ('1', 'Page View'),
@@ -32,15 +32,15 @@ VALUES
   ('2', '4-5', '25% Off - Living The Lux Life', '2020-01-15', '2020-01-28'),
   ('3', '6-8', 'Half Off - Treat Your Shellf(ish)', '2020-02-01', '2020-03-31');
 
-CREATE TABLE clique_bait.page_hierarchy (
-  "page_id" INTEGER,
-  "page_name" VARCHAR(14),
-  "product_category" VARCHAR(9),
-  "product_id" INTEGER
+CREATE TABLE page_hierarchy (
+  page_id INTEGER,
+  page_name VARCHAR(14),
+  product_category VARCHAR(9),
+  product_id INTEGER
 );
 
-INSERT INTO clique_bait.page_hierarchy
-  ("page_id", "page_name", "product_category", "product_id")
+INSERT INTO page_hierarchy
+  (page_id, page_name, product_category, product_id)
 VALUES
   ('1', 'Home Page', null, null),
   ('2', 'All Products', null, null),
@@ -56,14 +56,14 @@ VALUES
   ('12', 'Checkout', null, null),
   ('13', 'Confirmation', null, null);
 
-CREATE TABLE clique_bait.users (
-  "user_id" INTEGER,
-  "cookie_id" VARCHAR(6),
-  "start_date" TIMESTAMP
+CREATE TABLE users (
+  user_id INTEGER,
+  cookie_id VARCHAR(6),
+  start_date TIMESTAMP
 );
 
-INSERT INTO clique_bait.users
-  ("user_id", "cookie_id", "start_date")
+INSERT INTO users
+  (user_id, cookie_id, start_date)
 VALUES
   ('1', 'c4ca42', '2020-02-04'),
   ('2', 'c81e72', '2020-01-18'),
@@ -1848,17 +1848,17 @@ VALUES
   ('211', 'a26e03', '2020-02-20'),
   ('64', '87a4ba', '2020-03-18');
 
-CREATE TABLE clique_bait.events (
-  "visit_id" VARCHAR(6),
-  "cookie_id" VARCHAR(6),
-  "page_id" INTEGER,
-  "event_type" INTEGER,
-  "sequence_number" INTEGER,
-  "event_time" TIMESTAMP
+CREATE TABLE events (
+  visit_id VARCHAR(6),
+  cookie_id VARCHAR(6),
+  page_id INTEGER,
+  event_type INTEGER,
+  sequence_number INTEGER,
+  event_time TIMESTAMP
 );
 
-INSERT INTO clique_bait.events
-  ("visit_id", "cookie_id", "page_id", "event_type", "sequence_number", "event_time")
+INSERT INTO events
+  (visit_id, cookie_id, page_id, event_type, sequence_number, event_time)
 VALUES
   ('ccf365', 'c4ca42', '1', '1', '1', '2020-02-04 19:16:09.182546'),
   ('ccf365', 'c4ca42', '2', '1', '2', '2020-02-04 19:16:17.358191'),
