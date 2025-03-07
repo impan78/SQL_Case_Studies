@@ -124,7 +124,7 @@ This project is based on the **[8 Week SQL Challenge](https://8weeksqlchallenge.
 
 If you have any questions or suggestions, feel free to reach out:
 - Email: gowdaimpanhv@gmail.com
-- LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/impan-h-v)
+- LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/impan-h-v)
 
 ---
 
