@@ -24,6 +24,8 @@ This repository contains my solutions for the **SQL Case Studies**. The reposito
 - Revenue analysis
 - Frequency of visits
 
+![ERD Diagram](ERD_images/ERD_of_Dannys_Diner.png)
+
 ---
 
 ## Case Study #2: Pizza Runner
@@ -34,6 +36,8 @@ This repository contains my solutions for the **SQL Case Studies**. The reposito
 - Delivery metrics
 - Performance improvements
 - Order trends
+
+![ERD Diagram](ERD_images/ERD_Pizza_Runner.png)
 
 ---
 
@@ -46,6 +50,8 @@ This repository contains my solutions for the **SQL Case Studies**. The reposito
 - Revenue analysis
 - Customer engagement
 
+![ERD Diagram](ERD_images/ERD_Foodie_Fi.png)
+
 ---
 
 ## Case Study #4: Data Bank
@@ -57,6 +63,7 @@ This repository contains my solutions for the **SQL Case Studies**. The reposito
 - Customer segmentation
 - Profitability trends
 
+![ERD Diagram](ERD_images/ERD_Data_Bank.png)
 ---
 
 ## Case Study #5: Data Mart
@@ -67,6 +74,8 @@ This repository contains my solutions for the **SQL Case Studies**. The reposito
 - Sales performance
 - Inventory optimization
 - Market trends
+
+![ERD Diagram](ERD_images/ERD_Data_Mart.png)
 
 ---
 
@@ -89,6 +98,8 @@ This repository contains my solutions for the **SQL Case Studies**. The reposito
 - Sales trends
 - Inventory management
 - Customer loyalty
+
+![ERD Diagram](ERD_images/ERD_Balanced_Tree.png)
 
 ---
 
